@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_info_blocks",
+  "info": {
+    "displayName": "Info block"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "component": "elements.logo",
+      "repeatable": false
+    },
+    "cta": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
